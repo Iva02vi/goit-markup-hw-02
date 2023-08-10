@@ -19,7 +19,7 @@ button {
   cursor: pointer;
 }
 
-.title-1 {
+.main-title {
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -28,7 +28,7 @@ button {
   letter-spacing: 1.12px;
 }
 
-.title-2 {
+.section-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -38,7 +38,7 @@ button {
   text-transform: capitalize;
 }
 
-.title-3 {
+.card-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
