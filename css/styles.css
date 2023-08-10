@@ -57,16 +57,32 @@ button {
   text-transform: uppercase;
 }
 
-.header-logo-studio,
+.header-logo-studio {
+  color: #2e2f42;
+}
+
 .header-nav-menu {
   color: #2e2f42;
   font-weight: 500;
 }
 
+.header-nav-menu:hover,
+.header-nav-menu:focus,
+.header-nav-menu:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
 .header-contacts {
   color: #434455;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.header-contacts:hover,
+.header-contacts:focus,
+.header-contacts:active {
+  color: #404bbf;
 }
 
 /* Main section */
@@ -79,6 +95,13 @@ button {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.64px;
+  line-height: 150%;
+}
+
+.main-cont-button:hover,
+.main-cont-button:focus,
+.main-cont-button:active {
+  background: #404bbf;
 }
 
 /* Team */
